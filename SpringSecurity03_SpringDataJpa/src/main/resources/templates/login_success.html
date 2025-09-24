@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1 style="color:green;text-align: center">Login Page</h1>
+<body>
+    <p>Hello,<span sec:authentication="name"></span>
+       <h1>Welcome you are not authorized for this page </h1>
+        
+  </body>     
+  
+  <a th:href="@{/bank/}">Home</a>
+  
+  <br>
+<a th:href="@{/logout}">Logout</a>
+   

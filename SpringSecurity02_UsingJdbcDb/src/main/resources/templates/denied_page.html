@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<h1 style="color:green;text-align: center">error Page</h1>
+<body>
+    <p>Hello,<span sec:authentication="name"></span>
+       <h1>Welcome you are not authorized for this page </h1>
+        
+  </body>     
+  
+  <a th:href="@{/bank/}">Home</a>
+  
+  <br>
+<a th:href="@{/logout}">Logout</a>
+   

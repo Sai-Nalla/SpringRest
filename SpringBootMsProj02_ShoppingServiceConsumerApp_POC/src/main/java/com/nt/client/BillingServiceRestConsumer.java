@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 public class BillingServiceRestConsumer {
 	
 	@Autowired
-	//private DiscoveryClient client;			//cient comp
+									//cient comp
 	private LoadBalancerClient client;
 	
 		public String getBillingInfo() {

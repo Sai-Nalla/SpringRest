@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1 style="color:green;text-align: center">Offers Page</h1>
+<body>
+        Home Loan ROI:7%<br>
+        Four Wheeler Loan :10%<br>
+        Personal Loan:12%<br>
+        
+  </body>     
+  
+  <a th:href="@{/bank/}">Home</a>
+  
+  <br>
+<form th:action="@{/logout}" method="post">
+    <button type="submit">Logout</button>
+</form>
+   
